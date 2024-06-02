@@ -131,6 +131,7 @@ const Main = () => {
         ) : (
           <div className="screen">
             {/* Content for when not recording */}
+      <h1 className="content">HEY THERE!</h1>
           </div>
         )}
       </div>

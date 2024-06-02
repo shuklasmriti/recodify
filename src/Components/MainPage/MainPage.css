@@ -109,6 +109,24 @@
     background-color: #1e293b;
     margin: auto;
   }
+  .screen {
+    width: 90%;
+    height: 278px;
+    position: relative;
+    top: 1rem;
+    border: 2px dashed black;
+    margin: auto;
+  }
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (min-width: 768px) {
+    .screen {
+      width: 490px;
+    }
+  }
   
   .options-container {
     display: flex;
