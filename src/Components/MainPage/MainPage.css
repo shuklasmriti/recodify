@@ -1,0 +1,171 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  @media (min-width: 768px) {
+    .main-container {
+      flex-direction: row;
+    }
+  }
+  
+  .recording-section {
+    border-color: #f8fafc;
+    width: 100%;
+    margin: 32px;
+  }
+  
+  @media (min-width: 768px) {
+    .recording-section {
+      width: 25%;
+    }
+  }
+  
+  .recording-title {
+    font-size: 2rem;
+    margin-left: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  
+  @media (min-width: 768px) {
+    .recording-title {
+      margin-bottom: 0;
+    }
+  }
+  
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .video-player {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+  
+  @media (min-width: 768px) {
+    .video-player {
+      width: auto;
+      height: 240px;
+    }
+  }
+  
+  .download-link {
+    background-color: #7e22ce;
+    padding: 8px;
+    color: white;
+    margin-top: 16px;
+    font-family: serif;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .preview-container {
+    background-color: #fcffff;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .preview-container {
+      height: 89.5vh;
+      width: 75%;
+    }
+  }
+  
+  .preview-content {
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .recording-status {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .preview-text {
+    margin: 8px;
+    font-family: serif;
+    font-size: 1.25rem;
+  }
+  
+  .video-preview {
+    width: 90%;
+    height: 278px;
+    position: relative;
+    top: 16px;
+    border: 2px dashed black;
+    background-color: #1e293b;
+    margin: auto;
+  }
+  
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 16px;
+    font-family: serif;
+    font-size: 1.25rem;
+  }
+  
+  @media (min-width: 768px) {
+    .options-container {
+      flex-direction: row;
+    }
+  }
+  
+  .buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    font-family: serif;
+  }
+  
+  .start-button {
+    margin: 8px;
+    padding: 8px;
+    background-color: #16a34a;
+    border-radius: 4px;
+    color: #fef9c3;
+  }
+  
+  .start-button:hover {
+    background-color: #166534;
+  }
+  
+  .stop-button {
+    padding: 8px;
+    background-color: #dc2626;
+    border-radius: 4px;
+    color: #fef9c3;
+  }
+  
+  .stop-button:hover {
+    background-color: #b91c1c;
+  }
+  
+  .Toastify{
+    margin-top: -34rem;
+    background-color: yellow;
+    margin-left: 75rem;
+    width: 20px;
+    height: 20px;
+
+  }
+  .Toastify_toast-container{
+    background-color: red;
+  }
