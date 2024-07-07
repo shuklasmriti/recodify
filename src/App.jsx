@@ -4,14 +4,13 @@ import { ToastContainer } from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';
 import '../src/App.css'
 
-{/* <link rel="stylesheet" href=".App.css" /> */}
 
 function App() {
   return (
     <>
     <Navbar/>
 <Main/>
-<ToastContainer className="toast"/>
+<ToastContainer />
 
     </>
   )

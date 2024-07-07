@@ -4,16 +4,17 @@
     height: 6rem;
     display: flex;
     align-items: center;
-    gap: 50rem;
+    /* gap: 50rem; */
 
 }
 .nav-logo{
-    width: 295px;
+    width: 70%;
     height: 6rem;
     /* background-color: green; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
+    padding-left: 20px;
 
 }
 .nav-logo img{
@@ -26,7 +27,7 @@
 align-items: center;
 justify-content: center;
 gap: 10px;
-width: 20rem;
+/* width: 20rem; */
 height: 4rem;
 padding: 10px;
 }
@@ -35,7 +36,7 @@ padding: 10px;
 display: flex;
 align-items: center;
 justify-content: center;
-width: 100px;
+/* width: 100px; */
 }
 .github img{
     width: 4rem;
@@ -46,7 +47,7 @@ width: 100px;
 display: flex;
 align-items: center;
 justify-content: center;
-width: 100px;
+/* width: 100px; */
 }
 .linkedin img{
     width: 4rem;
