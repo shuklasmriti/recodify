@@ -22,14 +22,14 @@
     height: 5rem;
 }
 .links-container{
-    /* background-color:yellow; */
+    /* background-color: yellow;  */
     display: flex;
-align-items: center;
-justify-content: center;
-gap: 10px;
-/* width: 20rem; */
-height: 4rem;
-padding: 10px;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    width: 30%;
+    height: 4rem;
+    padding: 10px;
 }
 .github{
 /* background-color:beige; */
